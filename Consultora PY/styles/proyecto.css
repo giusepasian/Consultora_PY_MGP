@@ -1,0 +1,34 @@
+.ekko-lightbox-nav-overlay a {
+    color: goldenrod;
+}
+.gallery-title {
+    text-align: center;
+	font-weight: 500;
+	border-bottom: 2px dotted orange;
+	margin-top: 1em;
+}
+.img-fluid {
+    display:block;
+	padding: 10px;
+	margin: 10px;
+    border: 2px;
+}
+.img-size {
+    height: 300px;
+    width: 300px;
+    display:block;
+	padding: 10px;
+	margin: 10px;
+    border: 2px;
+}
+
+@media (max-width: 768px) {
+    .img-size {
+        min-height: 350px;
+   }
+}
+@media (max-width: 420px) {
+    .img-size {
+        min-height: 300px;
+   }
+}
